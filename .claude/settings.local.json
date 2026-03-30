@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas -type f -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.js\" -o -name \"*.json\")",
+      "Bash(ls -la /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/)",
+      "Bash(find /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/app/dashboard -type d -name \"\\\\[id\\\\]\")",
+      "Bash(find /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/app -type d)",
+      "Bash(cat /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/package.json)",
+      "Bash(ls -la /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/types/)",
+      "Bash(head -50 /c/Users/Yoshi/Downloads/\"crm-clinicas \\(8\\)\"/crm-clinicas/supabase/migrations/003_appointment_status_history.sql)",
+      "Bash(npm install:*)",
+      "Bash(npx vitest:*)"
+    ]
+  }
+}
